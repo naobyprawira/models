@@ -18,9 +18,9 @@ REQUIRED_PACKAGES = [
     'lvis',
     'scipy',
     'pandas',
-    'tf-models-official>=2.5.1',
+    'tf-models-official >=2.5.1, <2.16.0',
     'tensorflow_io',
-    'keras',
+    #'keras',
     'pyparsing==2.4.7',  # TODO(b/204103388)
     'sacrebleu<=2.2.0'  # https://github.com/mjpost/sacrebleu/issues/209
 ]
